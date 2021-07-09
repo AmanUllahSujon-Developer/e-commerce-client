@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdduserComponent } from './admin/users/adduser/adduser.component';
 import { FormsModule } from '@angular/forms';
 import { ViewuserComponent } from './admin/users/viewuser/viewuser.component';
+import { BooksComponent } from './admin/book/books/books.component';
+import { AddbookComponent } from './admin/book/books/addbook/addbook.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ViewuserComponent } from './admin/users/viewuser/viewuser.component';
     MenuComponent,
     UsersComponent,
     AdduserComponent,
-    ViewuserComponent
+    ViewuserComponent,
+    BooksComponent,
+    AddbookComponent
   ],
   imports: [
     BrowserModule,
